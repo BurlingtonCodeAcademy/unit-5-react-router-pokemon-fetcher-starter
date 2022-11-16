@@ -35,6 +35,11 @@ Your work will result in:
 }
 ```
 
+React-Router Documentation:
+
+- Creating a Browser Router
+  - <https://reactrouter.com/en/main/routers/create-browser-router>
+
 ### Create an request for Pokemon data from the Index route of the API
 
 - Base Route: `https://pokeapi.co/api/v2/`
@@ -44,6 +49,13 @@ Your work will result in:
 - [ ] Initialize your data request using either `useEffect` or the default React Router `loader()` function exported by a component for a given component.
 
 - [ ] Receive the data as a response from your request, and then inject that data into your component, and use it to render the initial list of Pokemon
+
+React-Router Documentation:
+
+- Setting the Loader Property on Route
+  - <https://reactrouter.com/en/main/route/loader>
+- Using the Loader Data
+  - <https://reactrouter.com/en/main/hooks/useloader-data>
 
 ```js
 {
@@ -80,6 +92,11 @@ Create your router within the `createBrowserRouter` for a detail page of a Pokem
 
 - [ ] Add a path param to the route, using the `:paramName` syntax within the path property of the route.
 
+React-Router Documentation:
+
+- Using a Router Parameter
+  - <https://reactrouter.com/en/main/hooks/use-params>
+
 ### Create an request for Pokemon data from the detail route of the API
 
 - Details of Pokemon: `/pokemon/<someId>`
@@ -88,6 +105,13 @@ Create your router within the `createBrowserRouter` for a detail page of a Pokem
 - [ ] Initialize your data request using either `useEffect` or the default React Router `loader()` function exported by a component for a given component.
 
 - [ ] Receive the individual Pokemon data as a response from your request, and then inject that data into your component, and use it to render the initial list of Pokemon
+
+React-Router Documentation:
+
+- Setting the Loader Property on Route
+  - <https://reactrouter.com/en/main/route/loader>
+- Using the Loader Data
+  - <https://reactrouter.com/en/main/hooks/useloader-data>
 
 ```js
 {
@@ -124,6 +148,11 @@ Create your router within the `createBrowserRouter` for a detail page of a Pokem
 - [ ] For each Pokemon in the index, create a `<Link>`, apply correct path value within the `to={}` prop, so that the data is retrieved for that Pokemon as a secondary request.
 - [ ] Use the data from the initial request of the Pokemon index in the subsequent detail request.
 
+React-Router Documentation:
+
+- Creating a Link Component
+  - <https://reactrouter.com/en/main/components/link>
+
 ### Add a Nav Bar to the Layout of the Application
 
 Use a component as a layout parent, and nest the children components within it, so that a navigation bar is displayed on every child page.
@@ -132,8 +161,30 @@ Use a component as a layout parent, and nest the children components within it, 
 - [ ] Use the component as a layout, by adding an `<Output />` to the base component, so that children can be rendered when their paths match.
 - [ ] Update the child `{ path }` property so that when the child is visited, only it is shown, and not any other children.
 
+React-Router Documentation:
+
+- Using an Outlet Component within a Layout
+  - <https://reactrouter.com/en/main/components/outlet>
+
 ## Going Further
 
 - Can we get information about multiple Pokemon forms onto the same page, such that the evolution of a Pokemon can be listed together on one route?
 - How should you style the Pokemon page?
 - Can you create a way to search for Pokemon?
+
+## Helpful Resources
+
+The following links are documentation pages on the React-Router project that will prove helpful in your project work.
+
+- Creating a Browser Router
+  - <https://reactrouter.com/en/main/routers/create-browser-router>
+- Setting the Loader Property on Route
+  - <https://reactrouter.com/en/main/route/loader>
+- Using the Loader Data
+  - <https://reactrouter.com/en/main/hooks/useloader-data>
+- Creating a Link Component
+  - <https://reactrouter.com/en/main/components/link>
+- Using a Router Parameter
+  - <https://reactrouter.com/en/main/hooks/use-params>
+- Using an Outlet Component within a Layout
+  - <https://reactrouter.com/en/main/components/outlet>
